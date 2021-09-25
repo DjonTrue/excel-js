@@ -81,10 +81,6 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: jsLoaders(),
-        loader: 'babel-loader',
-        options: {
-          presets: ['@babel/preset-env']
-        }
       }
     ],
   }

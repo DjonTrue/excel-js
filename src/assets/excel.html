@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico">
+  <title>Pure JS Excel</title>
+</head>
+<body>
+  <div id="app" class="container">
+    <div class="excel">
+
+      <div class="excel__header">
+        <input type="text" class="excel__header-input" value="New table" />
+        <div>
+          <div class="excel__header-button">
+            <span class="material-icons">
+              logout
+            </span>
+          </div>
+          <div class="excel__header-button">
+            <span class="material-icons">
+              delete
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="excel__toolbar">
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_align_left
+          </span>
+        </div>
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_align_center
+          </span>
+        </div>
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_align_right
+          </span>
+        </div>
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_bold
+          </span>
+        </div>
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_italic
+          </span>
+        </div>
+
+        <div class="excel__toolbar-button">
+          <span class="material-icons">
+            format_underline
+          </span>
+        </div>
+      </div>
+
+
+      <div class="excel__formula">
+        <div class="excel__formula-info">fx</div>
+        <div class="excel__formula-input" contenteditable spellcheck="false"></div>
+      </div>
+
+
+      <div class="excel__table">
+
+        <div class="excel__table__row">
+
+          <div class="excel__table__row__info"></div>
+
+          <div class="excel__table__row__data">
+
+            <div class="excel__table__row__data__column">A</div>
+            <div class="excel__table__row__data__column">B</div>
+            <div class="excel__table__row__data__column">C</div>
+          </div>
+
+        </div>
+
+        
+        <div class="excel__table__row">
+
+          <div class="excel__table__row__info">1</div>
+
+          <div class="excel__table__row__data">
+
+            <div class="excel__table__row__data__cell excel__table__row__data__cell_selected">A1</div>
+            <div class="excel__table__row__data__cell">A2</div>
+            <div class="excel__table__row__data__cell">A3</div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="excel__table__row">
+
+          <div class="excel__table__row__info">1</div>
+
+          <div class="excel__table__row__data">
+
+            <div class="excel__table__row__data__cell excel__table__row__data__cell_selected">A1</div>
+            <div class="excel__table__row__data__cell">A2</div>
+            <div class="excel__table__row__data__cell">A3</div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="excel__table__row">
+
+          <div class="excel__table__row__info">1</div>
+
+          <div class="excel__table__row__data">
+
+            <div class="excel__table__row__data__cell excel__table__row__data__cell_selected">A1</div>
+            <div class="excel__table__row__data__cell">A2</div>
+            <div class="excel__table__row__data__cell">A3</div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+</body>
+</html>
